@@ -3,7 +3,7 @@ resources:
 
 variables:
   - name: 'BROWSERSLIST_IGNORE_OLD_DATA'
-    value: true
+    value: 1
 
 steps:
 - task: Npm@1
