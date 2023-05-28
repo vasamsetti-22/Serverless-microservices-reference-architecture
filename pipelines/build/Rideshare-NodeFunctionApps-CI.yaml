@@ -1,8 +1,5 @@
 resources:
 - repo: self
-queue:
-  name: Hosted Linux Preview
-  demands: npm
 
 steps:
 - task: Npm@1
