@@ -1,6 +1,10 @@
 resources:
 - repo: self
 
+variables:
+  - name: 'BROWSERSLIST_IGNORE_OLD_DATA'
+    value: true
+
 steps:
 - task: Npm@1
   displayName: 'npm install'
