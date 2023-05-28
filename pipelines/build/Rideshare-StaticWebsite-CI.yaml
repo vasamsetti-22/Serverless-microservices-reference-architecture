@@ -1,6 +1,12 @@
 resources:
   - repo: self
 
+variables:
+  - name: 'BROWSERSLIST_IGNORE_OLD_DATA'
+    value: 1
+  - name: NODE_OPTIONS
+    value: --openssl-legacy-provider  
+
 steps:
   - task: Npm@1
     displayName: 'npm install'
