@@ -22,7 +22,7 @@ steps:
 
       verbose: false
 
-      customCommand: 'run build'
+      customCommand: 'run build -openssl-legacy-provider'
 
   - task: CopyFiles@2
     displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)'
