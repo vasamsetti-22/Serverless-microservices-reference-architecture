@@ -26,7 +26,7 @@ steps:
 
       verbose: false
 
-      customCommand: 'run build -openssl-legacy-provider'
+      customCommand: npm build'
 
   - task: CopyFiles@2
     displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)'
