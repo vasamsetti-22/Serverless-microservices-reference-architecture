@@ -9,13 +9,13 @@ steps:
   - task: Npm@1
     displayName: 'npm install'
     inputs:
-      command: custom
+      command: custom  
 
       workingDir: 'web/serverless-microservices-web'
 
       verbose: false
 
-      customCommand: 'install -f'
+      customCommand: 'run build -openssl-legacy-provider'
 
   - task: Npm@1
     displayName: 'npm run build'
