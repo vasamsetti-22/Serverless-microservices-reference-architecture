@@ -15,7 +15,7 @@ steps:
 
       verbose: false
 
-      customCommand: 'run build -openssl-legacy-provider'
+      customCommand: 'install -f'
 
   - task: Npm@1
     displayName: 'npm run build'
